@@ -24,7 +24,7 @@ const useMovieTrailer = (movieTitle) => {
     };
 
     getMovieTrailer();
-  }, [movieTitle]);
+  }, [dispatch, movieTitle]);
 };
 
 export default useMovieTrailer;
